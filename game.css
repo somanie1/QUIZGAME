@@ -4,6 +4,35 @@
     font-family: 'Poppins' , sans-serif;
     box-sizing: border-box;
   }
+
+  .topnav {
+    background-color: #005776;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid rgb(255, 255, 255);
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid rgb(255, 255, 255);
+  }
+
+  .link:hover a {
+    color: #1d00f5; /* Set the text color on hover */
+  }
+
   body{
     background: #69bfc5;
     }

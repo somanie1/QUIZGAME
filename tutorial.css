@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #005776;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid rgb(119, 11, 243);
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid rgb(119, 11, 243);
+  }
+
+  .link:hover a {
+    color: #1d00f5; /* Set the text color on hover */
+  }
+
+body {
+    background-image: url(bg_tutorial.img.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    backdrop-filter: blur(2px);
+  }
+
+  main
+{
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100 240px;
+  margin-bottom: 0px;
+}
+
+p
+{
+  overflow: auto;  
+  margin-bottom: -10px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: 'Lora', serif;
+}
+
+main .button
+{
+    background-color: #FDDA0D;
+    color: #000;
+    padding: 9px 10px;
+    margin-top: 9px;
+    font-size: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button.button:hover {
+    background-color: #FFC000;
+}

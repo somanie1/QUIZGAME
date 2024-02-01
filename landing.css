@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(bg_img.jpg);
+  background-size:cover;
+  background-position: center;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  backdrop-filter: blur(4px);
+}
+
+.nav_links {
+  text-align: right;
+}
+
+.link {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #333; /* Set the default text color */
+  transition: color 0.3s ease;
+}
+
+.link:hover a {
+  color: #3498db; /* Set the text color on hover */
+}
+
+main
+{
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100 240px;
+  margin-bottom: 0px;
+}
+
+ h1
+{
+  margin-bottom: -10px;
+  font-size: 72px;
+  font-family: 'Lora', serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h3
+{
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main .button
+{
+    background-color: #FDDA0D;
+    color: #000;
+    padding: 10px 25px;
+    margin-top: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button.button:hover {
+    background-color: #FFC000;
+}
