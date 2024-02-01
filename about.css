@@ -5,6 +5,22 @@ body {
     background-color: #f4f4f4;
 }
 
+.topnav {
+    background-color: #a1b2cb;
+    overflow: hidden;
+  }
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+
 h1 {
     color: #333;
 }
