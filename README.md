@@ -1,4 +1,4 @@
-QUIZGAME is a mobile brainteaser app for educative and fun purposes. It was created by Stephanie Onyiwa under the ALX Software engineering programme in session 2023/2024. It was inspired by her love for quizeez, puzzles and current affairs. This game is packed with over 20 brainteasers and is very beginner friendly.                                           
+QUIZGAME is a mobile brainteaser app for educative and fun purposes. It was created by me, Stephanie Onyiwa under the ALX Software engineering programme in session 2023/2024. It isinspired by my love for web games, quizeez and puzzles. This game is packed with over 20 brainteasers and is user friendly.                                           
 TECHNOLOGIES USED: HTML, CSS, JAVASCRIPT, Webhost (vercel.com)
 
 
